@@ -29,7 +29,7 @@ $Q_\text{board quiescent\ charge} = 0.006mA * 3.6 * 24 * 365 = 378\ Coulombs$
 
 The L91 AA lithium battery boasts a shelf life of 15 to 25 years at 21°C (70°F), indicating a self-discharge rate of less than 1% per year. Calculating loss of charge due to self-discharge for a 2-year cycle:
 
-$Q_\text{self\ discharge} = 10,800 Coulombs * 0.02 = 216\ Coulombs$
+$Q_\text{self\ discharge} = 10,800\ Coulombs * 0.02 = 216\ Coulombs$
 
 The remaining useful capacity of the battery:
 
