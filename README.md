@@ -39,4 +39,6 @@ Considering that a single measurement requires 250mC of energy (worst case):
 $N_\text{measurements} = 9,828 / 0.250 = \~\~ 39,000\ measurements$
 
 Considering 30 mins sleep between measurements:
-$N_\text{days} = 39,000\ measurements / (2\ measurements\ per\ hour * 24 hours) = 812\ days\ or\ 2.2\ years$
+$N_\text{days} = 
+  39,000\ measurements / (2\ measurements\ per\ hour * 24 hours) = 
+  812\ days\ or\ 2.2\ years$
