@@ -95,9 +95,8 @@ binary_sensor:
     name: "Temp/Humidity/Barometric Sensor Status"
     id: system_status
 
+# NOTE: comment out deep_sleep when doing initial integration
 deep_sleep: 
   id: sleeper
   run_duration: 4s
   sleep_duration: 30min
-#  run_duration: 1min
-#  sleep_duration: 1s
