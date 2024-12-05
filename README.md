@@ -1,7 +1,7 @@
 ## Low power temperature / humidity / atmospheric pressure sensor for Home Assistant
 
 ![schematic](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/schematic_1024x800.png)
-![schematic](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/front_640x480.jpg)![schematic](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/back_640x480.jpg)
+| ![front](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/front_640x480.jpg) | | ![back](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/back_640x480.jpg) |
 
 ### Battery Capacity 
 
