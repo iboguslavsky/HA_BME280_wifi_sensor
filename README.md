@@ -1,3 +1,9 @@
+## Low power temperature / humidity / atmospheric pressure sensor for Home Assistant
+
+<img src="https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/master/img/schematic.jpg">
+
+
+
 ### Battery Capacity 
 
 The total battery capacity $Q_\text{battery}$ can be calculated as:
