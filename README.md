@@ -12,6 +12,7 @@ Where:
 
 ### Calculate available battery capacity and longevity
 
+To convert mAh to Coulombs:
 
 $Q (\text{C}) = I (\text{mAh}) \times 3.6$
 
