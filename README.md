@@ -5,9 +5,9 @@ The total battery capacity $Q_\text{battery}$ can be calculated as:
 $$ Q_\text{battery} = Q_\text{self\ discharge} + Q_\text{board quiescent charge} + Q_\text{useful capacity} $$
 
 Where:
-- $Q_\text{self\ discharge}$: Capacity consumed due to self-discharge.
-- $Q_\text{board quiescent\ charge}$: Capacity consumed by the quiescent current of the circuit.
-- $Q_\text{measurements}$: Capacity consumed during measurements or operations.
+- $Q_\text{self\ discharge}$: Capacity consumed due to self-discharge
+- $Q_\text{board quiescent\ charge}$: Capacity consumed by the quiescent current of the circuit
+- $Q_\text{useful capacity}$: Capacity consumed during measurements
 
 
 ### Calculate available battery capacity and longevity
