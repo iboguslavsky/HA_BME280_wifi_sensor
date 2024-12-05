@@ -11,21 +11,19 @@ Where:
 
 Lets calculate reamingin battery capacity after accounting for self-discharge and idle board current:
 
-## Calculate available battery capacity and longevity
+### Calculate available battery capacity and longevity
 
-#### Converting Milliampere-Hour (mAh) to Coulombs (C)
+_Converting Milliampere-Hour (mAh) to Coulombs (C)_
 
-The conversion from milliampere-hour (\( \text{mAh} \)) to coulombs (\( \text{C} \)) is given by:
+The conversion from milliampere-hour $\text{mAh}$ to coulombs $\text{C}$ is given by:
 
-$$
-Q (\text{C}) = I (\text{mAh}) \times 3.6
-$$
+$Q (\text{C}) = I (\text{mAh}) \times 3.6$
 
 Where:
 - \( Q \): Charge in coulombs (C)
 - \( I \): Current capacity in milliampere-hours (mAh)
 - \( 3.6 \): Conversion factor (1 mAh = 3.6 C)
-- 
+  
 For Energizer Ultimate [L91 ](https://data.energizer.com/pdfs/l91.pdf):
 
 $C_\text{battery} = 3,000 mAh * 3.6 = 10,800 Coulumbs$
