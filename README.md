@@ -23,6 +23,7 @@ Where:
 For Energizer Ultimate [L91 ](https://data.energizer.com/pdfs/l91.pdf):
 
 $Q_\text{battery} = 3,000 mAh * 3.6 = 10,800 Coulumbs$
+
 $Q_\text{board quiescent\ charge} = 0.006mA/s * 3600s * 3.6 = 78 Coulumbs$
 
 The Energizer L91 AA lithium battery boasts a shelf life of 15 to 25 years at 21°C (70°F), indicating a self-discharge rate of less than 1% per year. Calculating loss of charge due to self-discharge for a 2-year cycle:
