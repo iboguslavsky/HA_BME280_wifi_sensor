@@ -2,7 +2,7 @@
 
 The total battery capacity $Q_\text{battery}$ can be calculated as:
 
-$$ Q_\text{battery} = Q_\text{self\ discharge} + Q_\text{board quiescent charge} + Q_\text{measurements} $$
+$$ Q_\text{battery} = Q_\text{self\ discharge} + Q_\text{board quiescent charge} + Q_\text{useful capacity} $$
 
 Where:
 - $Q_\text{self\ discharge}$: Capacity consumed due to self-discharge.
