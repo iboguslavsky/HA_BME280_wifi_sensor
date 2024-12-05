@@ -9,7 +9,6 @@ Where:
 - $Q_\text{board quiescent\ charge}$: Capacity consumed by the quiescent current of the circuit.
 - $Q_\text{measurements}$: Capacity consumed during measurements or operations.
 
-Lets calculate reamingin battery capacity after accounting for self-discharge and idle board current:
 
 ### Calculate available battery capacity and longevity
 
