@@ -2,6 +2,8 @@
 
 The total battery capacity (\( C_\text{battery} \)) can be calculated as:
 
+$x^2 + y^2 = z^2$. 
+
 $$
 C_\text{battery} = C_\text{self\_discharge} + C_\text{quiescent\_current} + C_\text{measurements}
 $$
