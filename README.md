@@ -32,7 +32,7 @@ $Q_\text{self\ discharge} = 10,800 Coulumbs * 0.02 = 216\ Coulumbs$
 
 The remaining useful capacity of the battery:
 
-$Q_\text{useful capacity} = 10,800 - 78 - 216 = ~10,500 Coulumbs$
+$Q_\text{useful capacity} = 10,800 - 78 - 216 = ~10,500\ Coulumbs$
 
 Considering that a single measurement requires 250mC of energy (worst case): 
 $N_\text{measurements} = 10,500 / 0.250 = 42,000\ measurements$
