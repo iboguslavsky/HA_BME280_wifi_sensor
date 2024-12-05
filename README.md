@@ -1,6 +1,6 @@
 ### Battery Capacity Equation
 
-The total battery capacity (\( C_\text{battery} \)) can be calculated as:
+The total battery capacity $(\( C_\text{battery} \))$ can be calculated as:
 
 $x^2 + y^2 = z^2$. 
 
