@@ -1,4 +1,4 @@
-### Battery Capacity Equation
+### Battery Capacity 
 
 The total battery capacity $Q_\text{battery}$ can be calculated as:
 
