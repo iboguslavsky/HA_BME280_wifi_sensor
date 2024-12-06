@@ -29,9 +29,14 @@ For Energizer Ultimate [Energizer L91 AA lithium battery](https://data.energizer
 
 $Q_\text{battery} = 3,000 mAh * 3.6 = 10,800\ Coulombs$
 
+#### Quiescent Charge
+The board consumes < $6\text{uA}$ current while in deep sleep:
+![idle](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/deep_sleep.png)
+
 Charge used by the board in deep sleep in 1 year:
 $Q_\text{board quiescent\ charge} = 0.006mA * 3.6 * 24h * 365days = 378\ Coulombs$
 
+#### Self discharge
 The L91 AA lithium battery boasts a shelf life of 15 to 25 years at 21°C (70°F), indicating a self-discharge rate of less than 1% per year. Calculating loss of charge due to self-discharge for a 2-year cycle:
 
 $Q_\text{self\ discharge} = 10,800\ Coulombs * 0.02 = 216\ Coulombs$
@@ -40,6 +45,7 @@ The remaining useful capacity of the battery after 2 years:
 
 $Q_\text{useful capacity} = 10,800 - 2 * 378 - 216 = 9,828\ Coulombs$
 
+#### Battery lifespan
 Considering that a single measurement requires 250mC of energy (worst case): 
 $N_\text{measurements} = 9,828 / 0.250 = \~\~ 39,000\ measurements$
 
