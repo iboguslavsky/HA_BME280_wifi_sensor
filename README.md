@@ -1,12 +1,12 @@
 ## Summary
 
-This project describes the hardware and firmware necessary to build a long lasting (> 2years) low power environmental sensor for Home Assistant. It combines esp32c3-based board that spends most of it's time in deeep sleep mode, while waking up every 30 mins to communicate the environmental data to Home Assistant. It utilizes low-power environmental sensor [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/).
+This project outlines the hardware and firmware needed to create a low-power environmental sensor with a lifespan of over 2 years for Home Assistant. The system features an ESP32-C3-based board, which remains in deep sleep mode most of the time and wakes up every 30 minutes to send environmental data to Home Assistant. It uses the low-power [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) environmental sensor.
 
-This solution is using a pair of AA lithium batteries (non-rechargeable). The desciion to use this type of batteries was made to:
+The board is powered by a pair of 1.5V AA LiFePO lithium batteries (non-rechargeable). The decision to use these batteries was based on:
 
-- Ability to discharge almost to capacity while maintainng a steady voltage (unlike alcaline batteries). This eliminates the need for voltage regulation
-- This approach is saving both on components conut - and the additional power draw
-- Very low self-discharge current (ie, shelf life of > 10 years)
+- Their ability to discharge almost to capacity while maintainng a steady voltage (unlike alcaline batteries). This eliminates the need for voltage regulation
+- This allows for both saving on components count - and the additional power draw
+- Batteries very low self-discharge current (ie, shelf life of > 10 years)
 
 The board is using standard [ESPHome](https://esphome.io/) firmware. 
 
