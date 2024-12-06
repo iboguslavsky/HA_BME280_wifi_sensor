@@ -19,7 +19,7 @@ If you choose ot manufacture your own PCB, the corresponding Gerber files are in
 <p align="center">
   <img src="https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/front_640x480.jpg" width="320">&nbsp;&nbsp;
   <img src="https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/back_640x480.jpg" width="320">&nbsp;&nbsp;
-  <img src="https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/dash_300.png" width="300">
+  <img src="https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/dash_300.png" width="150">
 </p>
 
 
