@@ -10,6 +10,8 @@ The board is powered by a pair of 1.5V AA LiFePO lithium batteries (non-recharge
 
 The board is using standard [ESPHome](https://esphome.io/) firmware with custom YAML configuration.
 
+If you choose ot manufacture your own PCB, the corresponding Gerber files are included.
+
 ### Hardware
 
 ![schematic](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/schematic_1024x800.png)
