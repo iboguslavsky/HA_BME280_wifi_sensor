@@ -47,7 +47,7 @@ $Q_\text{useful capacity} = 10,800 - 2 * 378 - 216 = 9,828\ Coulombs$
 
 #### Battery lifespan
 Single environmental measurement and subsequent communication with HA consumes between 200mC and 250mC of charge:
-![schematic](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/measure.png)
+![measure](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/measurement.png)
 
 Assuming worst case: 
 
