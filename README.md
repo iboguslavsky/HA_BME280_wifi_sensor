@@ -54,11 +54,11 @@ $Q_\text{useful capacity} = 10,800 - 2 * 378 - 216 = 9,828\ Coulombs$
 Single environmental measurement and subsequent communication with HA consumes between 200mC and 250mC of charge:
 ![measure](https://github.com/iboguslavsky/HA_BME280_wifi_sensor/blob/main/img/measurement.png)
 
-Assuming worst case: 
+Assuming worst case, the total number of possible measurements is: 
 
 $N_\text{measurements} = 9,828 / 0.250 = \~\~ 39,000\ measurements$
 
-Considering 30 mins sleep between measurements:
+Considering 30 mins sleep between measurements, the sensor lifespan on a single set of fresh batteries would be:
 
 $N_\text{days} = 
   39,000\ measurements / (2\ measurements\ per\ hour * 24 hours) = $
