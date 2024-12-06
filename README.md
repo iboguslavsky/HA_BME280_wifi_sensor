@@ -1,6 +1,6 @@
 ## Summary
 
-This project outlines the hardware and firmware needed to create a low-power environmental (temperature / humidity / atmospheric pressure) Home Assitant-integrated sensor with a lifespan of over 2 years. The system features an ESP32-C3-based board, which remains in deep sleep mode most of the time and wakes up every 30 minutes to send environmental data to Home Assistant. It uses the low-power [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) environmental sensor.
+This project outlines the hardware and firmware needed to create a low-power environmental (ambient temperature / relative humidity / barometric pressure) Home Assitant-integrated sensor with a lifespan of over 2 years. The system features an ESP32-C3-based board, which remains in deep sleep mode most of the time and wakes up every 30 minutes to send environmental data to Home Assistant. It uses the low-power [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) environmental sensor.
 
 The board is powered by a pair of 1.5V AA LiFePO lithium batteries (non-rechargeable). The decision to use these batteries was based on:
 
