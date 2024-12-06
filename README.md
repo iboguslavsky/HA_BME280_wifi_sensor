@@ -8,7 +8,7 @@ The board is powered by a pair of 1.5V AA LiFePO lithium batteries (non-recharge
 - This allows for both saving on components count - and the additional power draw
 - Batteries very low self-discharge current (ie, shelf life of > 10 years)
 
-The board is using standard [ESPHome](https://esphome.io/) firmware. 
+The board is using standard [ESPHome](https://esphome.io/) firmware with custom YAML configuration.
 
 ### Hardware
 
