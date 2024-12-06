@@ -1,6 +1,6 @@
 ## Summary
 
-This project outlines the hardware and firmware needed to create a low-power environmental (ambient temperature / relative humidity / barometric pressure) Home Assistant-integrated WiFi sensor with a lifespan of over 2 years. The system features an ESP32-C3 based [module](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13u-kit-v1.0_specification.pdf). It remains in deep sleep mode most of the time and wakes up every 30 minutes to send environmental data to Home Assistant. It uses the low-power [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) environmental sensor.
+This is a low-power environmental (ambient temperature / relative humidity / barometric pressure) Home Assistant-integrated WiFi sensor. It has a lifespan of over 2 years while powered by 2xAA LiFePo batteries. It runs on a ESP32-C3 based [module](https://docs.ai-thinker.com/_media/esp32/docs/esp-c3-13u-kit-v1.0_specification.pdf). It remains in deep sleep mode most of the time and wakes up every 30 minutes to send environmental data to Home Assistant. It uses the low-power [BME280](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) environmental sensor.
 
 The board is powered by a pair of 1.5V AA LiFePO lithium batteries (non-rechargeable). The decision to use these batteries was based on:
 
